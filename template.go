@@ -54,7 +54,7 @@ func newsAggHandler(w http.ResponseWriter, r *http.Request) {
 
 func index_handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w,
-		"<h1>Hey bois</h1>")
+		"<h1>News Aggregator</h1>")
 
 }
 
